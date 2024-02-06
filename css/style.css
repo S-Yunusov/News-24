@@ -125,6 +125,7 @@ img{
 .site-header__top {
   padding-top: 30px;
   padding-bottom: 30px;
+  margin-bottom: 10px;
   background-color: var(--card-bg-color);
 }
 .side-header__top-container {
@@ -135,8 +136,8 @@ img{
 /* SITE-HEADER-LOGO */
 .site-header__logo {
   display: flex;
-  margin-right: 35px;
   padding: 8px 6px;
+  margin-right: 35px;
   border-radius: 7px;
   background-color: #fff;
 }  
@@ -151,8 +152,8 @@ img{
 .currency-rates {
   display: flex;
   align-items: center;
-  margin: 0;
   padding: 0;
+  margin: 0;
   margin-right: auto;
 }
 .currency-rates__item:not(:last-child){
@@ -201,3 +202,46 @@ img{
   color: #000;
 }
 
+/* SITENAV */
+.sitenav {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #d1d1d1;
+  font-family: "Rubik-Medium", "Arial", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  
+}
+.sitenav__list {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.sitenav__item{
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.sitenav__item:not(:last-child) {
+  margin-right: 34px;
+}
+.sitenav__link {
+  display: block;
+  color: #7f7f7f;
+}
+.sitenav__link:hover{
+  color: var(--accent-color);
+}
+.sitenav__link:active{
+  opacity: 0.6;
+}
+
+/* SITE-HEADER-BANNER */
+.site-header__banner-link{
+  display: flex;
+}
+.site-header__banner-img{
+  border-radius: 8px;
+}

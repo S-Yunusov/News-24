@@ -40,19 +40,21 @@
   box-sizing: inherit;
 }
 
+/* OUTLINE-STYLES */
 *:focus{
-  outline: 2px dotted var(--accent-color);
+  outline: 2px dashed var(--accent-color);
   outline-offset: 2px;
 }
 
+/* SCROLLBAR-STYLES */
 ::-webkit-scrollbar{
   background-color: var(--card-bg-color);
   width: 10px;
 }
-
 ::-webkit-scrollbar-thumb{
   background-color: var(--accent-color);
 }
+
 
 ul{
   list-style: none;
@@ -119,9 +121,6 @@ img{
 }
 
 /* SITE-HEADER */
-.site-header {
-}
-
 /* SITE-HEADER-TOP */
 .site-header__top {
   padding-top: 30px;
@@ -159,8 +158,22 @@ img{
 .currency-rates__item:not(:last-child){
   margin-right: 25px;
 }
-.currency-rates__types {
+.currency-rates__type {
   color: #2959ce;
+}
+
+/* GLOBAL SEARCH FORM */
+.global-search-form{
+  margin-right: 25px;
+}
+.global-search-form__input{
+  padding-top: 15px;
+  padding-bottom: 13px;
+  padding-left: 40px;
+  font-size: 14px;
+  line-height: normal;
+  border: 0;
+  border-radius: 60px;
 }
 
 /* LANG-TOGGLE */
@@ -179,6 +192,9 @@ img{
   line-height: 30px;
   color: #a6a6a6;
   text-align: center;
+}
+.lang-toggle__link:not(:last-child){
+  margin-right: 4px;
 }
 .lang-toggle__link_active {
   background-color: #fff;

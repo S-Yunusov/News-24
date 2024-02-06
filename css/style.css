@@ -245,3 +245,8 @@ img{
 .site-header__banner-img{
   border-radius: 8px;
 }
+
+/* MAIL-CONTENT */
+.main-content{
+  flex-grow: 1;
+}
